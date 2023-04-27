@@ -4,17 +4,17 @@
 
 :root {
   --primary-color: steelblue;
-  --secondary-color: rgb(96, 128, 0);
+  --secondary-color: lightgreen;
   --accent1-color: lightgreen;
   --accent2-color: pink;
 
-  --heading-font: Times New Roman, serif;
+  --heading-font: Times, serif;
   --paragraph-font: Georgia, serif;
 
   --nav-background-color: steelblue;
   --nav-link-color: #ffffff;
-  --nav-hover-link-color: hotpink;
-  --nav-hover-background-color: green;
+  --nav-hover-link-color: lightgreen;
+  --nav-hover-background-color: hotpink;
 }
 
         
@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
+
 
 header {
   padding: 20px;
