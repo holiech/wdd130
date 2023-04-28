@@ -1,26 +1,20 @@
 
-
 @import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
 
-
-
 :root {
-  --primary-color: blue;
-  --secondary-color: green;
-  --accent1-color: steelblue;
-  --accent2-color: yellow;
+  --primary-color: steelblue;
+  --secondary-color: rgb(96, 128, 0);
+  --accent1-color: lightgreen;
+  --accent2-color: pink;
 
-  --heading-font: "New Roman", Times, serif;
+  --heading-font: Times New Roman, serif;
   --paragraph-font: Georgia, serif;
 
   --nav-background-color: steelblue;
-  --nav-link-color: white;
+  --nav-link-color: #ffffff;
   --nav-hover-link-color: hotpink;
-  --nav-hover-background-: yellow;
+  --nav-hover-background-color: green;
 }
-
-
-
 
         
 body {
@@ -29,15 +23,11 @@ body {
   padding: 20px;
 }
 
-
-
         
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
 }
-
-
 
 header {
   padding: 20px;
@@ -45,11 +35,9 @@ header {
 }
 
 
-
 p {
   padding: 25px;
 }
-
 
 
 nav {
@@ -73,5 +61,3 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
-
-
