@@ -1,14 +1,14 @@
 
-@import url('https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
 
 :root {
   --primary-color: steelblue;
-  --secondary-color: #e7c24f;
+  --secondary-color: green;
   --accent1-color: lightgreen;
   --accent2-color: pink;
 
-  --heading-font: Times New Roman, serif;
-  --paragraph-font: Georgia, serif;
+  --heading-font: Roboto, Helvetica, Sans-serif;
+  --paragraph-font: "Open Sans";
 
   --nav-background-color: steelblue;
   --nav-link-color: #ffffff;
