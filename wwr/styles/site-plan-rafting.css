@@ -8,7 +8,7 @@
   --accent2-color: pink;
 
   --heading-font: Roboto, Helvetica, Sans-serif;
-  --paragraph-font: "Open Sans";
+  --paragraph-font: "Open Sans",Sans-serif;
 
   --nav-background-color: steelblue;
   --nav-link-color: #ffffff;
