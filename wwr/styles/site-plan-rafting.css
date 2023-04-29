@@ -3,7 +3,7 @@
 
 :root {
   --primary-color: steelblue;
-  --secondary-color: rgb(96, 128, 0);
+  --secondary-color: #e7c24f;
   --accent1-color: lightgreen;
   --accent2-color: pink;
 
@@ -60,4 +60,14 @@ nav a:link, nav a:visited {
 nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
+}
+
+
+
+
+
+table, th, td {
+  border: 1px solid;
+  border-color: black;
+  border-collapse: collapse;
 }
