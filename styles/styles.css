@@ -40,10 +40,9 @@ img {
 }
 
 p{
-    padding: 10px;
+  padding: 10px;
+  margin: 1rem;
 }
-
-
 
 
 
@@ -89,9 +88,6 @@ main img {
   margin: 0 0 1rem 1rem;
 }
 
-p { padding: 0;
-    margin: 2rem;
-}
   
 
 footer {
