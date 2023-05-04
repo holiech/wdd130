@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    --primary-color: #943939;
+    --secondary-color: white;
+    --accent1-color: lightgreen;
+    --accent2-color: pink;
+  
+    --heading-font: Roboto, Helvetica, Sans-serif;
+    --paragraph-font: "Open Sans",Sans-serif;
+  
+    --nav-background-color:steelblue;
+    --nav-link-color: #ffffff;
+    --nav-hover-link-color: hotpink;
+    --nav-hover-background-color: green;
+}
+   
+
+
+ h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.hero{
+    position: relative;
+}
+
+
+    
+    
+
+.herodiv img{
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+
+.herodiv h1{
+    padding: 25px;
+    background-color: rgba(0, 0, 0,.3);
+    position: absolute;
+    color: var(--secondary-color);
+    text-align: center;
+    top: 0;
+    margin: 3rem;
+    right: 27%;
+
+}
+
+
+
+article{
+    position: absolute;
+    background-color: rgba(82,136,217,.5);
+    padding: 20px;
+    top: 0;
+    margin: 10rem;
+}
+
+
+article img{
+    float: right;
+    width: 200px;
+    height: auto;
+    border: 1px solid steelblue;
+}
+
+
+article p{
+    color: var(--secondary-color);
+}
