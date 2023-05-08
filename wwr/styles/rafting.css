@@ -51,7 +51,7 @@ h1, article {
 
 
 .herodiv h1{
-    padding: 10px;
+    padding: 7px;
     background-color: rgba(0, 0, 0,.3);
     position: absolute;
     color: var(--secondary-color);
@@ -67,8 +67,8 @@ article{
     position: absolute;
     background-color: rgba(82,136,217,.5);
     padding: 10px;
-    top: 20px;
-    margin: 10rem;
+    top: 200px;
+    margin: 2rem;
 }
 
 
