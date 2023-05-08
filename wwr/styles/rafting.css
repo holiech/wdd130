@@ -57,7 +57,7 @@ h1, article {
     color: var(--secondary-color);
     text-align: center;
     top: 20px;
-    margin: 5rem;
+    margin: 2rem;
     right: 27%;
 }
 
@@ -67,7 +67,7 @@ article{
     position: absolute;
     background-color: rgba(82,136,217,.5);
     padding: 10px;
-    top: 200px;
+    top: 150px;
     margin: 2rem;
 }
 
