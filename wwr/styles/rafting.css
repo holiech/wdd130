@@ -88,3 +88,51 @@ article p{
 .sociallinks img {
     width: 50px;
 }
+
+/* week four*/
+
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px 1fr 2fr;
+	align-items: center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+}
+
+.logo img {
+	margin: 0 0.25rem 0 1rem;
+	width: 64px;
+	height: auto;
+}
+
+h1 {
+	font-size: 2rem;
+	font-family: Acme, Arial, sans-serif;
+}
+
+nav {
+	text-align: right;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+}
+
+.navigation li {
+	flex: 1 1 100%;
+}
+
+.navigation a {
+	display: block;
+	color: navy;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+	color: tomato;
+	font-weight: 700;
+	text-decoration: underline;
+}
