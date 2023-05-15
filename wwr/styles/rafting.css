@@ -109,8 +109,19 @@ header {
 }
 
 
-nav {
-	text-align: right;
-    list-style: none;
-    display: flex;
+
+h2{
+    text-align: justify;
+}
+
+
+.sociallinks img{
+    float: right;
+    text-align: right;
+
+
+}
+.navigation nav{
+	display: flex;
+	list-style: none;
 }
