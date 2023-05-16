@@ -101,17 +101,14 @@ header {
 	max-width: 1000px;
 }
 
-.sociallinks {
-	text-align: right;
-}
 
 
-.navigation {
+nav {
 	display: flex;
 	list-style: none;
 }
 
-nav a {
-	flex: 1 1 100%;
-}
 
+.sociallinks {
+	text-align: right;
+}
