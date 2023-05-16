@@ -106,9 +106,17 @@ header {
 nav {
 	display: flex;
 	list-style: none;
+    text-align: right;
+}
+
+nav a{
+    flex: 1 1 100%;
 }
 
 
-.sociallinks {
-	text-align: right;
+
+
+
+section h2{
+    font-size: 30px;
 }
