@@ -106,7 +106,6 @@ header {
 nav {
 	display: flex;
 	list-style: none;
-    text-align: right;
 }
 
 nav a{
@@ -116,7 +115,10 @@ nav a{
 
 
 
-
 section h2{
     font-size: 30px;
+}
+
+.sociallinks{
+    text-align: right;
 }
