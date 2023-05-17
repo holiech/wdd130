@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>WDD 130 | HTML Form - User Poll</title>
+  <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+<body>
+<header>
+  <h1>WDD 130 | Raila Oliech | HTML Form - User Poll</h1>
+</header>
+<main>
+  <form>
+    <fieldset>
+      <legend>Contact Information</legend>
+      <div class="form-item">
+        <label for="fullnane">Fullname:</label>
+        <input type="text" id="fullnane" name="Fullname">
+      </div>    
+      <br>
+      <div class="form-item-">
+        <label for="email">email</label>
+        <input type="email" name="useremail" id="useremail">
+      </div>
+    </fieldset>
+    <fieldset>
+            <legend>Questions</legend>
+            <label for="browser">What is your favorite internet browser?</label>
+            <select id="browser" name="browser">
+            <br>    
+              <option value="chrome">Chrome</option>
+              <option value="firefox">Firefox</option>
+              <option value="safari">Safari</option>
+              <option value="edge">Edge</option>
+              <option value="brave">Brave</option>
+              <option value="other">Other</option>
+            </select>
+            <br>
+        
+            <label for="pet">Do you have a household pet?</label>
+
+            <input type="checkbox" id="pet" name="pet">
+            <br>
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali">></textarea>
+    </fieldset>
+
+    <button type="submit">Submit Poll</button>
+  </form>
+</main>
+<footer>
+  <p>©2024 | HTML Form - User Poll Activity | Raila Oliech</p>
+</footer>
+</body>
+</html>
