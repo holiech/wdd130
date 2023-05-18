@@ -20,6 +20,7 @@
  h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    font-size: 25px;
 }
 
 
@@ -114,25 +115,7 @@ nav a{
     flex: 1 1 100%;
 }
 
-section img{
-    width: 240px;
-    height: 240px;
-}
-
-
-section h2, h1{
-    font-size: 25px;
-}
 
 .sociallinks{
     text-align: right;
-}
-
-
-.span-images {
-    margin: 1rem auto;
-	display: grid;
-	grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-    text-align: center;
-
 }
