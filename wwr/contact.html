@@ -1,0 +1,132 @@
+
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Whitewater Rafting Site Plan Contact| Raila Oliech</title>
+    <meta name="description" content="The rafting site Oliech BYU-Idaho coarse home page,  Contact Us Page.">
+    <meta name="author" content="Raila Oliech">
+    <link rel="stylesheet" href="styles/rafting.css">
+  </head>
+  <body>
+    <header>
+        <img src="images/logo.png" alt="background imaage">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>   
+    </header>
+    <main>
+        <h2>Contact Us</h2>
+
+        <h2>Send us a message</h2>
+
+        <p>whitewater rafting</p>
+        <p>Phone: +25499663377</p>
+        <p>email: <a href="mailto:">rafting@gmail.com</a></p>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d37
+                300.27574355961!2d-104.89989094449847!3d38.77918873940235!2m3!1f0!2f0!3f0!
+                3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87135b588b209e41%3A0x45be10450244db86!
+                2sSeven%20Falls!5e0!3m2!1sen!2ske!4v1684427106215!5m2!1sen!2ske" width="400"
+                 height="300" style="border:0;" allowfullscreen="" loading="lazy" 
+                 referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <span>
+            <figure>
+                <img src="images/happy-cliants.jpg">
+                <figcaption>doctor</figcaption>
+                <img src="images/happy-cliants.jpg">
+                <figcaption>james</figcaption>
+                <img src="images/happy-cliants.jpg">
+                <figcaption>officer</figcaption>
+            </figure>
+                
+        </span>
+        <div id="feedback"></div>
+        <br>
+        <form action="/my-handling-form-page" method="post">
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="user_name" />
+                <br>
+                <br>
+                <label for="mail">E-mail:</label>
+                <input type="email" id="mail" name="user_email" placeholder="username@gmail.com" />
+                <br>
+                <br>
+                <label for="purpose">The purpose of the message</label>
+                <select name="purpose" id="purpose">
+                    <option value="" selected disabled> choose one ...</option>
+                    <option value="tex-size" >General Inquiry</option>
+                    <option value="font-size">Reservation Question</option>
+                    <option value="font-style">Website Suggestion</option>
+                </select>
+                <br>
+                <br>
+                <label for="msg">Message:</label>
+                <textarea id="msg" name="user_message" rows="3"></textarea>
+                <br>
+                <br>
+                <label for="checkbox">Please subscribe me to the monthly newsletter</label>
+                <input type="checkbox" name="checkbox" id="checkbox">
+            </fieldset>
+            <button type="submit">Send your message</button>
+        </form>
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+    </main>
+    <footer>
+        <p>© 2023 🌳 Whitewater Rafting base 🌳 Raila Oliech</p>
+        <div class="sociallinks">
+            <a href="https://facebook.com">
+            <img src="images/facebook.png" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+            <img src="images/twitter.webp" alt="Twitter">
+            </a>
+            <a href="https://whatsapp.com">
+            <img src="images/whatsapp.png" alt="Instagram">
+            </a>
+        </div>
+    </footer>
+    <script>
+        // get the feedback div element so we can do something with it.
+        const feedbackElement = document.getElementById('feedback');
+        // get the form so we can read what was entered in it.
+        const formElement = document.forms[0];
+        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
+        formElement.addEventListener('submit', function(e) {
+            // stop the form from doing the default action.
+            e.preventDefault();
+            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+            // make the feedback element visible.
+            feedbackElement.style.display = "block";
+            // add a class to move everything down so our message doesn't cover it.
+            document.body.classList.toggle('moveDown');
+        });
+    </script>
+  </body>
+</html>  
