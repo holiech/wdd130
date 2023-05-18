@@ -58,7 +58,7 @@ h1, article {
     text-align: center;
     top: 20px;
     margin: 2rem;
-    right: 30%;
+    right: 32%;
     position: absolute;
 
 }
@@ -71,6 +71,7 @@ article{
     padding: 10px;
     top: 150px;
     margin: 2rem;
+    text-align: center;
 }
 
 
@@ -113,7 +114,10 @@ nav a{
     flex: 1 1 100%;
 }
 
-
+section img{
+    width: 240px;
+    height: 240px;
+}
 
 
 section h2, h1{
@@ -125,3 +129,10 @@ section h2, h1{
 }
 
 
+.span-images {
+    margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
+    text-align: center;
+
+}
