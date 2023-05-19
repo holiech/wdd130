@@ -21,7 +21,7 @@
         </nav>   
     </header>
     <main>
-        <h2>Contact Us</h2>
+        <h1>Contact Us</h1>
 
         <h2>Send us a message</h2>
 
@@ -51,28 +51,26 @@
         <div id="feedback"></div>
         <br>
         <form action="/my-handling-form-page" method="post">
+            <h3>fill the information bellow</h3>
             <fieldset>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="user_name" />
                 <br>
-                <br>
                 <label for="mail">E-mail:</label>
                 <input type="email" id="mail" name="user_email" placeholder="username@gmail.com" />
-                <br>
-                <br>
 
                 <p>Please select the purpose of the Message</p>
+                  <label><input type="radio" name="purpose" id="General Inquiry" value="General Inquiry"> General Inquiry</label>
+                  <label><input type="radio" name="purpose" id="Reservation Question" value="Reservation Question"> Reservation Question</label>
+                  <label><input type="radio" name="purpose" id="Website Suggestion" value="Website Suggestion"> Website </label>                                </label>
 
-                <input type="radio" name="purpose" id="General Inquiry" value="General Inquiry">
-                <label for="General Inquiry">General Inquiry</label><br>
-                <input type="radio" name="purpose" id="Reservation Question" value="Reservation Question">
-                <label for="Reservation Question">Reservation Question</label><br>
-                <input type="radio" name="purpose" id="Website Suggestion" value="Website Suggestion">
-                <label for="Website Suggestion">Website Suggestion</label><br>
+
+
+
+
                 <br>
                 <label for="msg">Message:</label>
-                <textarea id="msg" name="user_message" rows="3"></textarea>
-                <br>
+                <textarea id="msg" name="user_message"></textarea>
                 <br>
                 <label for="checkbox">Please subscribe me to the monthly newsletter</label>
                 <input type="checkbox" name="checkbox" id="checkbox">
@@ -115,19 +113,14 @@
         </div>
     </footer>
     <script>
-        // get the feedback div element so we can do something with it.
+    
         const feedbackElement = document.getElementById('feedback');
-        // get the form so we can read what was entered in it.
         const formElement = document.forms[0];
-        // add a 'listener' to wait for a submission of our form. When that happens run the code below.
         formElement.addEventListener('submit', function(e) {
-            // stop the form from doing the default action.
             e.preventDefault();
-            // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
-            // make the feedback element visible.
+        
+            feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you soon';
             feedbackElement.style.display = "block";
-            // add a class to move everything down so our message doesn't cover it.
             document.body.classList.toggle('moveDown');
         });
     </script>
