@@ -60,14 +60,15 @@
                 <input type="email" id="mail" name="user_email" placeholder="username@gmail.com" />
                 <br>
                 <br>
-                <label for="radio">The purpose of the message</label>
-                <select name="radio" id="radio">
-                    <option value="" selected disabled> choose one ...</option>
-                    <option value="General Inquiry" >General Inquiry</option>
-                    <option value="font-size">Reservation Question</option>
-                    <option value="font-style">Website Suggestion</option>
-                </select>
-                <br>
+
+                <p>Please select the purpose of the Message</p>
+
+                <input type="radio" name="purpose" id="General Inquiry" value="General Inquiry">
+                <label for="General Inquiry">General Inquiry</label><br>
+                <input type="radio" name="purpose" id="Reservation Question" value="Reservation Question">
+                <label for="Reservation Question">Reservation Question</label><br>
+                <input type="radio" name="purpose" id="Website Suggestion" value="Website Suggestion">
+                <label for="Website Suggestion">Website Suggestion</label><br>
                 <br>
                 <label for="msg">Message:</label>
                 <textarea id="msg" name="user_message" rows="3"></textarea>
@@ -78,6 +79,8 @@
             </fieldset>
             <button type="submit">Send your message</button>
         </form>
+
+
 
 
 
