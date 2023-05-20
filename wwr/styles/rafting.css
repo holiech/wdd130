@@ -109,6 +109,7 @@ header {
 nav {
 	display: flex;
 	list-style: none;
+  text-align: right;
 }
 
 nav a{
@@ -121,15 +122,12 @@ nav a{
 }
 /*week 5 work*/
 
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto&display=swap');
-
-      
 body {
     font-family: Merriweather, Georgia, serif;
     font-size: 1.2em;
     color: #333;
     background: #fff;
+    background-color: whitesmoke;
   }
   
   
@@ -144,7 +142,7 @@ body {
   
   
   form {
-    width: auto;
+    width: 800px;
     margin: 0 auto;
     padding: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
