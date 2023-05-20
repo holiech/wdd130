@@ -98,10 +98,11 @@ article p{
 header {
 	margin: 1rem auto;
 	display: grid;
+  align-items: center;
 	grid-template-columns: 120px 2fr 2fr;
-	align-items: center;
 	border-bottom: 2px solid #ccc;
 	max-width: 1000px;
+
 }
 
 
@@ -123,7 +124,7 @@ nav a{
 /*week 5 work*/
 
 body {
-    font-family: Merriweather, Georgia, serif;
+    font-family: var(--heading-font);
     font-size: 1.2em;
     color: #333;
     background: #fff;
@@ -160,7 +161,7 @@ body {
   }
 
   label, input, button, textarea {
-    font-family: Roboto, Arial, sans-serif;
+    font-family: var(--heading-font);
     padding: 0.2rem;
     font-size: 1.1rem;
     
@@ -193,8 +194,10 @@ body {
   button:hover {
     background-color: darkgreen;
   }
+  footer{
+    text-align: center;
+  }
   
-  footer{text-align: center;}
   
 
   .grid-container {
@@ -204,9 +207,8 @@ body {
   }
   
   .grid-item {
-    text-align: cemnter;
-    padding: 20px;
-    font-size: 30px;
+    
+    text-align: center;
   }
   
   .item1 {
