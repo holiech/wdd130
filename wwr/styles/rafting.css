@@ -284,3 +284,22 @@ table img{
   margin-bottom: 10px;
 }
 
+
+.contact a {
+  display: inline-block;
+  padding: 12px 20px;
+  background-color: #ff6f00;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.contact a:hover {
+  background-color: #e65100;
+}
+
+.contact a:active {
+  background-color: #ff8f00;
+}
+
