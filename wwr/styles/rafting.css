@@ -100,7 +100,7 @@ header {
 	margin: 1rem auto;
 	display: grid;
   align-items: center;
-	grid-template-columns: 120px 2fr 2fr;
+	grid-template-columns: 120px 1fr 1fr;
 	border-bottom: 2px solid #ccc;
 	max-width: 1000px;
 
@@ -247,6 +247,8 @@ table img{
   width: 150px;
 
 }
+
+
 
 
 .grid-item h3 {
